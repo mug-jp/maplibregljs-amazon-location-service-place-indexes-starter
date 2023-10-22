@@ -1,8 +1,8 @@
-# maplibregljs-amazon-location-service-starter
+# maplibregljs-amazon-location-service-place-indexes-starter
 
 ![README02](img/README02.png)
 
-Start MapLibre GL JS and Amazon Location Service easily.  
+Easily start geocoding with MapLibre GL JS and Amazon Location Service.  
 - [MapLibre GL JS v3.3.1](https://maplibre.org)  
 - [Amazon Location Service](https://aws.amazon.com/location)  
 - node v20.6.1
@@ -12,7 +12,7 @@ Start MapLibre GL JS and Amazon Location Service easily.
 
 ## blog
 
-[Building a Map Application with MapLibre GL JS and Amazon Location Service API key functionality](https://dev.to/aws-heroes/building-a-map-application-with-maplibre-gl-js-and-amazon-location-service-api-key-functionality-29db)
+
 
 <br>
 
@@ -22,17 +22,20 @@ Start MapLibre GL JS and Amazon Location Service easily.
 
 <br>
 
-Create Amazon Location Service "map" and "API key"
+Create Amazon Location Service "map", "API key(map)", "geocoding" and "API key(geocoding)"
 
-[API key creation (map)](https://memo.dayjournal.dev/memo/amazon-location-service-004)
+- [API key creation (map)](https://memo.dayjournal.dev/memo/amazon-location-service-004)  
+- [API key creation (geocoding)](https://memo.dayjournal.dev/memo/amazon-location-service-005)  
 
 <br>
 
-Set "region", "API key" and "map name" in env file
+Set "region", "API key(map)", "map name", "API key(geocoding)" and "geocoding name" in env file
 ```env
 VITE_REGION = xxxxx
 VITE_MAP_API_KEY = v1.public.xxxxx
 VITE_MAP_NAME = xxxxx
+VITE_PLACE_API_KEY = v1.public.xxxxx
+VITE_PLACE_NAME = xxxxx
 ```
 
 <br>
@@ -80,11 +83,11 @@ Copyright (c) 2023 MapLibre User Group Japan
 
 <br>
 
-# MapLibreGLJS & Amazon Location Service スターター
+# MapLibreGLJS & Amazon Location Service & ジオコーディング スターター
 
 ![README02](img/README02.png)
 
-MapLibre GL JSとAmazon Location Serviceを手軽に始める
+MapLibre GL JSとAmazon Location Serviceでジオコーディングを手軽に始める
 - [MapLibre GL JS v3.3.1](https://maplibre.org)  
 - [Amazon Location Service](https://aws.amazon.com/location)  
 - node v20.6.1
@@ -94,7 +97,7 @@ MapLibre GL JSとAmazon Location Serviceを手軽に始める
 
 ## blog
 
-[MapLibre GL JSとAmazon Location ServiceのAPIキー機能で開発環境を構築してみた](https://www.memo.dayjournal.dev/memo/try-103)
+
 
 <br>
 
@@ -104,17 +107,20 @@ MapLibre GL JSとAmazon Location Serviceを手軽に始める
 
 <br>
 
-Amazon Location Serviceのマップ・APIキーを作成
+Amazon Location Serviceのマップ・APIキー(マップ)・ジオコーディング・APIキー(ジオコーディング)を作成
 
-[APIキー作成(マップ)](https://memo.dayjournal.dev/memo/amazon-location-service-004)
+- [APIキー作成(マップ)](https://memo.dayjournal.dev/memo/amazon-location-service-004)  
+- [API key creation (geocoding)](https://memo.dayjournal.dev/memo/amazon-location-service-005)  
 
 <br>
 
-リージョン・APIキー・マップ名をenvファイルに設定
+リージョン・APIキー(マップ)・マップ名・APIキー(ジオコーディング)・ジオコーディング名をenvファイルに設定
 ```env
 VITE_REGION = xxxxx
 VITE_MAP_API_KEY = v1.public.xxxxx
 VITE_MAP_NAME = xxxxx
+VITE_PLACE_API_KEY = v1.public.xxxxx
+VITE_PLACE_NAME = xxxxx
 ```
 
 <br>
