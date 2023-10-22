@@ -1,5 +1,5 @@
 {
-  "name": "maplibregljs-amazon-location-service-starter",
+  "name": "maplibregljs-amazon-location-service-place-indexes-starter",
   "version": "3.3.1",
   "description": "",
   "scripts": {
@@ -15,6 +15,9 @@
     "vite": "^4.4.9"
   },
   "dependencies": {
+    "@aws-sdk/client-location": "^3.433.0",
+    "@aws/amazon-location-utilities-auth-helper": "^1.0.2",
+    "@aws/amazon-location-utilities-datatypes": "^1.0.3",
     "maplibre-gl": "^3.3.1"
   }
 }

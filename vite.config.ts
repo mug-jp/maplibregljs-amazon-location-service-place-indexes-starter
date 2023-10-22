@@ -1,3 +1,3 @@
 export default {
-  base: '/maplibregljs-amazon-location-service-starter/'
+  base: '/maplibregljs-amazon-location-service-place-indexes-starter/'
 }
