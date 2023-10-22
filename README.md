@@ -110,7 +110,7 @@ MapLibre GL JSとAmazon Location Serviceでジオコーディングを手軽に�
 Amazon Location Serviceのマップ・APIキー(マップ)・ジオコーディング・APIキー(ジオコーディング)を作成
 
 - [APIキー作成(マップ)](https://memo.dayjournal.dev/memo/amazon-location-service-004)  
-- [API key creation (geocoding)](https://memo.dayjournal.dev/memo/amazon-location-service-005)  
+- [APIキー作成(ジオコーディング)](https://memo.dayjournal.dev/memo/amazon-location-service-005)  
 
 <br>
 
