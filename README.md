@@ -12,7 +12,7 @@ Easily start geocoding with MapLibre GL JS and Amazon Location Service.
 
 ## blog
 
-
+[Building an Address Search Function with Amazon Location SDK and API key function](https://dev.to/aws-heroes/building-an-address-search-function-with-amazon-location-sdk-and-api-key-function-3614)
 
 <br>
 
@@ -97,7 +97,7 @@ MapLibre GL JSとAmazon Location Serviceでジオコーディングを手軽に�
 
 ## blog
 
-
+[Amazon Location SDKとAPIキーで住所検索機能を構築してみた](https://memo.dayjournal.dev/memo/try-104)
 
 <br>
 
